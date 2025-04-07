@@ -1,14 +1,11 @@
 
-# Sample Hardhat Project
+# TimePostOffice
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Even if the pendulum splits day and night, every hurried moment emits a light that lasts longer than the starlight.
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
+npx hardhat compile
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
