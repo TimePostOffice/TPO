@@ -5,7 +5,7 @@ async function main() {
     const tpo = await ethers.getContractFactory("Tpo");
     const token = await tpo.deploy(50000000);
     
-    console.log("合约地址 :", token.target);
+    console.log("Token address :", token.target);
 
   }
   
