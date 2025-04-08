@@ -12,5 +12,11 @@ module.exports = {
       url: "https://bsc-dataseed.binance.org/",
       accounts: [process.env.PRIVATE_KEY],
     },
+  },
+  etherscan: {
+    apiKey: {
+      bscTestnet: [process.env.BSC_API_KEY],
+      bsc: [process.env.BSC_API_KEY],
+    }
   }
 };
